@@ -39,7 +39,7 @@ function render() {
 })
 }
 render();
-});
+
 
 
 app.controller('homeCtrl', function($scope , PetService) {
