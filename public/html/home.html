@@ -1,0 +1,66 @@
+<h1 ng-click='click()' ui-sref='home' style=" font-family: fantasy">Home Page. We Are Open for Business!</h1>
+<br>
+<container>
+  <form class="form-horizontal">
+    <fieldset>
+      <legend></legend>
+      <div class="form-group">
+        <label  for="clientName" class="col-lg-2 control-label">Client Name</label>
+        <div class="col-lg-10">
+          <input require type="text" class="form-control" id="clientName" placeholder="ClientName">
+        </div>
+      </div>
+      <label for="petSex" class="col-lg-2 control-label">Pet Sex</label>
+        <div class="col-lg-10">
+          <input require type="text" class="form-control" id="petSex" placeholder="PetSex">
+        </div>
+      </div>
+      <label for="petBreed" class="col-lg-2 control-label">Breed</label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="petBreed" placeholder="petBreed">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="petName" class="col-lg-2 control-label">Pet Name</label>
+        <div class="col-lg-10">
+          <input require type="text" class="form-control" id="petName" placeholder="Pet's Name Here.">
+      
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+
+
+      </div>
+      <div class="form-group">
+        <label class="col-lg-2 control-label">Radios</label>
+        <div class="col-lg-10">
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              Option one is this
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              Option two can be something else
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="select" class="col-lg-2 control-label">Selects</label>
+        <div class="col-lg-10">
+
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-2">
+
+          <button ng-click='submit()' ui-sref='animal' type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</container>

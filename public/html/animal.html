@@ -1,0 +1,34 @@
+<h1>Pets That Need Parents</h1>
+<div>
+<h5 for="available">Animals Available</h5>
+
+   <div class="cardSmall">
+     <div class="row">
+       <div class="col s12 m7" ng-repeat='animal in animals'>
+         <div class="card">
+           <div class="card-image">
+             <img src="https://s-media-cache-ak0.pinimg.com/736x/fd/a1/09/fda10962e923ee3a2738d975edcf162a.jpg">
+           </div>
+           <div class="card-content">
+             <span class="card-title">{{animal.petName}}
+               <p> petName:{{animal.petName}}</p>
+               <p> petBreed: {{animal.petbreed}}</p>
+               <p> petSex: {{animal.petSex}}</p>
+             </span>
+             <p>I'm a animal who needs a home.</p>
+           </div>
+           <div class="card-action">
+             <a href="#">Home</a>
+             <button ng-click='delete(pet)' type="delete" class="btn btn-default">Delete</button>
+             <button ui-sref='customer' type="adopted" class="btn btn-primary">Adopted</button>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+
+
+
+</div>

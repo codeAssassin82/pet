@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+html body {
+  background-image: : url="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS0-ph0Kri-9cJBQRCwi1AGZgPFImE2mnbHIBu9-BjV9R-MfR-o"
+}
+.card {
+    width: 30%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}

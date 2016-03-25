@@ -1,0 +1,20 @@
+{
+  "name": "pet",
+  "description": "Check in Pets",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/codeAssassin82/agenda",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/bower_components"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.2.18",
+    "angular": "^1.5.2"
+  }
+}
